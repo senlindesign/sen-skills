@@ -1,27 +1,29 @@
 # sen-skills
 
-Sen 的 Claude skills 合集。
+Language: English | [中文](README.zh-CN.md)
+
+Sen's collection of Claude skills.
 
 ## Skills
 
-### [i-write](skills/i-write/) — 个人写作系统
+### [i-write](skills/i-write/) - Personal Writing System
 
-让 AI 写出你亲笔写的文章。
+Make AI write in a way that feels like you wrote it yourself.
 
-把一篇公开文章拆成四个部件:观点(frame)、笔触(style)、技巧(craft)、媒介(medium)。
-前两样属于你,由 Deep Interview 提取;后两样是公共的工具和规则。
+`i-write` breaks public writing into four parts: frame, style, craft, and medium.
+The first two belong to the writer and are extracted through a Deep Interview. The last two are shared writing tools and distribution rules.
 
-先懂人,再写字。详见 [skills/i-write/README.md](skills/i-write/README.md)。
+Understand the writer first, then write. See [skills/i-write/README.md](skills/i-write/README.md).
 
-## 安装
+## Installation
 
 ### Claude
 
-下载最新的 [`i-write.skill`](https://github.com/senlindesign/sen-skills/releases/latest/download/i-write.skill)，然后在 Claude 的 Skills 设置里上传并启用。
+Download the latest [`i-write.skill`](https://github.com/senlindesign/sen-skills/releases/latest/download/i-write.skill), then upload and enable it in Claude's Skills settings.
 
 ### Claude Code
 
-把 `skills/i-write/` 整个文件夹放进你的 skills 目录:
+Copy the whole `skills/i-write/` folder into your Claude Code skills directory:
 
 ```bash
 mkdir -p ~/.claude/skills

@@ -1,0 +1,31 @@
+# sen-skills
+
+语言: [English](README.md) | 中文
+
+Sen 的 Claude skills 合集。
+
+## Skills
+
+### [i-write](skills/i-write/) — 个人写作系统
+
+让 AI 写出你亲笔写的文章。
+
+把一篇公开文章拆成四个部件:观点(frame)、笔触(style)、技巧(craft)、媒介(medium)。
+前两样属于你,由 Deep Interview 提取;后两样是公共的工具和规则。
+
+先懂人,再写字。详见 [skills/i-write/README.zh-CN.md](skills/i-write/README.zh-CN.md)。
+
+## 安装
+
+### Claude
+
+下载最新的 [`i-write.skill`](https://github.com/senlindesign/sen-skills/releases/latest/download/i-write.skill)，然后在 Claude 的 Skills 设置里上传并启用。
+
+### Claude Code
+
+把 `skills/i-write/` 整个文件夹放进你的 skills 目录:
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R skills/i-write ~/.claude/skills/
+```
