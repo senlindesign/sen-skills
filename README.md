@@ -15,5 +15,15 @@ Sen 的 Claude skills 合集。
 
 ## 安装
 
-把 `skills/i-write/` 整个文件夹放进你的 skills 目录(Claude Code: `~/.claude/skills/`),
-或在 Claude 桌面端把文件夹压缩为 `.skill` 后导入。
+### Claude
+
+下载最新的 [`i-write.skill`](https://github.com/senlindesign/sen-skills/releases/latest/download/i-write.skill)，然后在 Claude 的 Skills 设置里上传并启用。
+
+### Claude Code
+
+把 `skills/i-write/` 整个文件夹放进你的 skills 目录:
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R skills/i-write ~/.claude/skills/
+```
