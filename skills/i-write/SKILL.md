@@ -2,7 +2,7 @@
 name: i-write
 description: 个人写作系统:让 AI 写出你亲笔写的文章。通过 Deep Interview 提取你的视角(frame)和笔触(style);之后你口述观点,它把观点站稳、装上你的笔触,用写作技巧(craft)打磨,产出像你亲笔写的文章,并适配不同媒介(medium)。用户说「写一篇」「帮我写」「发 X 媒介」,口述想法想变成文章,或想建立自己的 AI 写作系统时使用。首次使用(无 profile)自动进入 Deep Interview。
 user_invocable: true
-version: "2.0.0"
+version: "2.0.2"
 ---
 
 # i-write

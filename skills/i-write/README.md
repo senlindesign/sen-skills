@@ -13,7 +13,7 @@ Any piece of public writing can be split into four parts:
 1. **Frame** - the judgment the writer feels they have to make. It grows out of their values and way of seeing the world → `frame.md`
 2. **Style** - the writer's voice: sentence rhythm, word choices, opening habits, ending habits → `style.md`
 3. **Craft** - how the argument is cut, arranged, and sharpened. This is shared writing technique → `craft.md`
-4. **Medium** - how the same piece changes when it appears on WeChat, Xiaohongshu, LinkedIn, Medium.com, or another medium → `medium.md`
+4. **Medium** - how the same piece changes across Chinese media such as WeChat Official Account, Xiaohongshu, Zhihu, Jike, Weibo, and English media such as LinkedIn, Medium.com, Substack, X, Threads, and Reddit → `medium.md`
 
 The first two belong to the writer. The last two are shared tools and rules. This skill puts all four back together into a finished piece.
 

@@ -13,7 +13,7 @@
 1. **观点(frame)** — 文章背后,作者「非说不可」的那个判断。它从作者的价值观和看世界的视角里长出来 → `frame.md`
 2. **笔触(style)** — 同一个观点,一百个人写出一百种声音:句子的节奏、用词的癖好、开头和收尾的习惯 → `style.md`
 3. **技巧(craft)** — 观点怎么拆解、怎么铺排、怎么落刀。这是公共的手艺,不专属于谁 → `craft.md`
-4. **媒介(medium)** — 同一篇文章,放在公众号和小红书上呈现不同:长度、排版、钩子、标签 → `medium.md`
+4. **媒介(medium)** — 同一篇文章,放在微信公众号、小红书、知乎、即刻、微博,或 LinkedIn、Medium.com、Substack、X、Threads、Reddit 上呈现不同:长度、排版、钩子、标签 → `medium.md`
 
 前两样是你的,谁也拿不走;后两样是公共的工具和规则。这个 skill 做的事,就是把四样东西装回一篇文章里。
 
@@ -53,7 +53,7 @@ i-write/
 ├── SKILL.md          执行流程(AI 读的操作手册)
 ├── interview.md      Deep Interview 指南
 ├── craft.md          写作工具箱
-├── medium.md         媒介规则(公众号/小红书/即刻/LinkedIn/X/Medium.com/Substack)
+├── medium.md         媒介规则(公众号/小红书/知乎/即刻/微博/LinkedIn/Medium.com/Substack/X/Threads/Reddit)
 └── profile/          你的部分——访谈生成
     ├── frame.md      视角:你怎么看
     └── style.md      笔触:你怎么写
