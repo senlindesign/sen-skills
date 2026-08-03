@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer English"
+  short_description: "Restore author voice in English prose"
+  default_prompt: "Use $humanizer-en to revise this English draft using my own words and human-written samples."
