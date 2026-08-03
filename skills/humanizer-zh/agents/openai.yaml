@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer Chinese"
+  short_description: "Restore author voice in Chinese prose"
+  default_prompt: "Use $humanizer-zh to revise this Chinese draft using my own words and human-written samples."
