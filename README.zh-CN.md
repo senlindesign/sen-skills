@@ -2,7 +2,7 @@
 
 语言: [English](README.md) | 中文
 
-Sen 的 Claude skills 合集。
+Sen 的 AI agent skills 合集。
 
 ## Skills
 
@@ -15,13 +15,27 @@ Sen 的 Claude skills 合集。
 
 先懂人,再写字。详见 [skills/i-write/README.zh-CN.md](skills/i-write/README.zh-CN.md)。
 
-### [humanizer-en](skills/humanizer-en/) — 由作者参与塑形的英文写作
+### Humanizer｜由作者参与塑形的写作
 
-用作者自己的语言修改或共同写作英文内容，减少通用的 LLM 写作习惯。
+思想是物体，语言是容器。Humanizer 系列让作者同时参与两者的塑形。
 
-`humanizer-en` 会把观点和语言表达分开处理，只从确认由人亲自写下或说出的材料中学习 voice。当作者的语言输入不够时，它会先继续提问，而不是擅自制造个人风格。它优化的是文字质量，不以 AI detector 分数为目标，也不会靠错别字或人为瑕疵伪装成人类写作。
+| Skill | 语言 | 说明 |
+| --- | --- | --- |
+| `humanizer-en` | 英文 | [English](docs/humanizer-en/README.md) · [中文](docs/humanizer-en/README.zh-CN.md) |
+| `humanizer-zh` | 简体中文 | [English](docs/humanizer-zh/README.md) · [中文](docs/humanizer-zh/README.zh-CN.md) |
+
+两个 Skill 都会分开处理 Thought material 和 Language material，只从确认由人提供的材料中学习 voice。语言容器缺少作者输入时，它会继续提问。问题识别服务于写作流程，目标不在 detector 规避。
 
 ## 安装
+
+### Skills CLI
+
+使用 `npx skills` 安装需要的 Humanizer 版本：
+
+```bash
+npx skills add senlindesign/sen-skills --skill humanizer-en
+npx skills add senlindesign/sen-skills --skill humanizer-zh
+```
 
 ### Claude
 
@@ -35,6 +49,7 @@ Sen 的 Claude skills 合集。
 mkdir -p ~/.claude/skills
 cp -R skills/i-write ~/.claude/skills/
 cp -R skills/humanizer-en ~/.claude/skills/
+cp -R skills/humanizer-zh ~/.claude/skills/
 ```
 
 ### Codex
@@ -44,4 +59,5 @@ cp -R skills/humanizer-en ~/.claude/skills/
 ```bash
 mkdir -p ~/.codex/skills
 cp -R skills/humanizer-en ~/.codex/skills/
+cp -R skills/humanizer-zh ~/.codex/skills/
 ```
