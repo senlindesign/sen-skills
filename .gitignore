@@ -1,0 +1,3 @@
+# 私人 profile 只留在本机；公开仓库只保留说明文件
+skills/i-write/profile/*
+!skills/i-write/profile/README.md

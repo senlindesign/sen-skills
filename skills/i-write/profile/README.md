@@ -3,6 +3,8 @@
 这个文件夹存 Deep Interview 的产出,是整个 skill 里唯一属于用户本人的部分:
 
 - **frame.md** — 视角:你怎么看世界。f 一句话、操作管线、独占词汇、证据(x → f(x))、触发器、盲区
+- **channels.md**(可选) — 你在各媒介的个人写法,从认可和改稿中积累,优先于 medium.md 的通用惯例
+- **samples.md**(可选) — 每种形式 1-3 份认可或已发表的样本,写作前读
 - **style.md** — 笔触:你怎么写字。七个 SECTION 全量回答 + Quick Reference Card(Always/Never/招牌句式)+ 防过拟合指南
 
 首次使用 i-write 时会自动进入 Deep Interview 生成这两个文件。没有它们,skill 不动笔。
